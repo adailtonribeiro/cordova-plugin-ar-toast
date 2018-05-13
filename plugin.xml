@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="cordova-plugin-ar-toast"
+    version="0.0.1">
+    <name>ArToast</name>
+    <description>Cordova ArToast Plugin</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,plugin,toast</keywords>
+
+    <js-module name="ArToast" src="www/ar-toast.js">
+        <!-- This is the window variable name you want, like window.ArToast -->
+        <clobbers target="ArToast"/>
+    </js-module>
+
+    <!-- android -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="ArToast">
+                <param name="android-package" value="com.adailtonribeiro.ArToast"/>
+            </feature>
+        </config-file>
+
+        <source-file src="src/android/ArToast.java" target-dir="src/com/adailtonribeiro/ar-toast"/>
+    </platform>
+
+    <!-- ios
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="ArToast">
+                <param name="ios-package" value="ArToast"/>
+            </feature>
+        </config-file>
+
+        <header-file src="src/ios/ArToast.h"/>
+        <source-file src="src/ios/ArToast.m"/>
+    </platform> -->
+
+</plugin>
