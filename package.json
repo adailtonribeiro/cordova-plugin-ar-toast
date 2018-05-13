@@ -14,13 +14,15 @@
     "url": "https://github.com/adailtonribeiro/cordova-plugin-ar-toast"
   },
   "keywords": [
+    "ecosystem:cordova",
     "cordova",
     "plugin",
     "toast"
   ],
   "scripts": {
     "test": "npm run eslint",
-    "eslint": "node node_modules/eslint/bin/eslint www && node node_modules/eslint/bin/eslint src && node node_modules/eslint/bin/eslint tests"
+    "eslint": "node node_modules/eslint/bin/eslint www && node node_modules/eslint/bin/eslint src && node node_modules/eslint/bin/eslint tests",
+    "publish-npm": "npm run test && npm publish"
   },
   "author": "Adailton Ribeiro",
   "license": "Apache-2.0",
