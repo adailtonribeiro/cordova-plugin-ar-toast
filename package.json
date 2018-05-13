@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-ar-toast",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple cordova plugin for showing a native toast popup on android and ios",
   "cordova": {
     "id": "cordova-plugin-ar-toast",
@@ -21,7 +21,7 @@
   ],
   "scripts": {
     "test": "npm run eslint",
-    "eslint": "node node_modules/eslint/bin/eslint www && node node_modules/eslint/bin/eslint src && node node_modules/eslint/bin/eslint tests",
+    "eslint": "node node_modules/eslint/bin/eslint www && node node_modules/eslint/bin/eslint src",
     "publish-npm": "npm run test && npm publish"
   },
   "author": "Adailton Ribeiro",
