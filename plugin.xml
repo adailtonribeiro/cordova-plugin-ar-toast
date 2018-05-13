@@ -2,7 +2,7 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     id="cordova-plugin-ar-toast"
-    version="0.0.2">
+    version="0.0.3">
     <name>ArToast</name>
     <description>Cordova ArToast Plugin</description>
     <license>Apache 2.0</license>
