@@ -24,7 +24,7 @@
         <source-file src="src/android/ArToast.java" target-dir="src/com/adailtonribeiro/ar-toast"/>
     </platform>
 
-    <!-- ios
+    <!-- ios -->
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
             <feature name="ArToast">
@@ -34,6 +34,6 @@
 
         <header-file src="src/ios/ArToast.h"/>
         <source-file src="src/ios/ArToast.m"/>
-    </platform> -->
+    </platform> 
 
 </plugin>
