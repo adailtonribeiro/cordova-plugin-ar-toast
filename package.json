@@ -1,7 +1,7 @@
 {
   "name": "cordova-plugin-ar-toast",
   "version": "0.0.1",
-  "description": "Cordova ArToast Plugin",
+  "description": "A simple cordova plugin for showing a native toast popup on android and ios",
   "cordova": {
     "id": "cordova-plugin-ar-toast",
     "platforms": [
